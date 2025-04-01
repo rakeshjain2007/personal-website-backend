@@ -2,14 +2,15 @@
   "name": "personal-website-backend",
   "version": "1.0.0",
   "description": "Backend for maintain personal website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rakesh Jain",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   }
 }
